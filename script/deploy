@@ -1,5 +1,6 @@
-#!/bin/sh
-ssh fazt@157.230.221.6 <<EOF
+#!/bin/bash
+
+ssh -tt fazt@157.230.221.6 <<EOF
  cd ~/projects/node-cicd-example
  git pull
  npm install --production

@@ -3,7 +3,7 @@
 ssh -tt fazt@157.230.221.6 <<EOF
  cd ~/projects/node-cicd-example
  git pull
- npm install --production
+ npm install
  pm2 restart all
  exit
 EOF

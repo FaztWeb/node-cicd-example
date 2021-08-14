@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ssh fazt@157.245.251.226 <<EOF
+ssh -tt fazt@157.245.251.226 <<EOF
  cd ~/projects/node-cicd-example
  git pull
  npm install

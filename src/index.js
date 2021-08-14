@@ -8,6 +8,10 @@ app.get("/", (req, res) => {
   res.send("Hello World!");
 });
 
+app.get("/ping", (req, res) => {
+  res.send("pong");
+});
+
 app.listen(app.get("port"));
 console.log("Server on port", app.get("port"));
 
